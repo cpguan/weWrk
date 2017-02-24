@@ -1,0 +1,6 @@
+framework module Pods_weWrk {
+  umbrella header "Pods-weWrk-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,23 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE2BE7211E5F296A00EB8137 /* MainPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2BE7201E5F296A00EB8137 /* MainPage.swift */; };
+		DE2BE7231E5F2E4F00EB8137 /* constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2BE7221E5F2E4F00EB8137 /* constants.swift */; };
+		DE2BE7281E5F367000EB8137 /* Oswald in Resources */ = {isa = PBXBuildFile; fileRef = DE2BE7271E5F367000EB8137 /* Oswald */; };
 		DE8F99611E577E4000F2087B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8F99601E577E4000F2087B /* AppDelegate.swift */; };
 		DE8F99631E577E4000F2087B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8F99621E577E4000F2087B /* ViewController.swift */; };
 		DE8F99661E577E4000F2087B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE8F99641E577E4000F2087B /* Main.storyboard */; };
 		DE8F99691E577E4000F2087B /* weWrk.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DE8F99671E577E4000F2087B /* weWrk.xcdatamodeld */; };
 		DE8F996B1E577E4000F2087B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE8F996A1E577E4000F2087B /* Assets.xcassets */; };
 		DE8F996E1E577E4000F2087B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE8F996C1E577E4000F2087B /* LaunchScreen.storyboard */; };
+		DE8F998C1E57F88C00F2087B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DE8F998B1E57F88C00F2087B /* GoogleService-Info.plist */; };
+		DE8F998E1E57FA9400F2087B /* CustomField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8F998D1E57FA9400F2087B /* CustomField.swift */; };
+		F05661185EE1A96A8CB6996C /* Pods_weWrk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F12397AAC2632008BBD255C /* Pods_weWrk.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2F12397AAC2632008BBD255C /* Pods_weWrk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_weWrk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		97F7AA0EAD3594F3C0B3F5B4 /* Pods-weWrk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-weWrk.debug.xcconfig"; path = "Pods/Target Support Files/Pods-weWrk/Pods-weWrk.debug.xcconfig"; sourceTree = "<group>"; };
+		DE2BE7201E5F296A00EB8137 /* MainPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainPage.swift; sourceTree = "<group>"; };
+		DE2BE7221E5F2E4F00EB8137 /* constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = constants.swift; sourceTree = "<group>"; };
+		DE2BE7271E5F367000EB8137 /* Oswald */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Oswald; sourceTree = "<group>"; };
 		DE8F995D1E577E4000F2087B /* weWrk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = weWrk.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DE8F99601E577E4000F2087B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DE8F99621E577E4000F2087B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DE8F99601E577E4000F2087B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = weWrk/AppDelegate.swift; sourceTree = "<group>"; };
+		DE8F99621E577E4000F2087B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = weWrk/ViewController.swift; sourceTree = "<group>"; };
 		DE8F99651E577E4000F2087B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DE8F99681E577E4000F2087B /* weWrk.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = weWrk.xcdatamodel; sourceTree = "<group>"; };
-		DE8F996A1E577E4000F2087B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE8F996A1E577E4000F2087B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = weWrk/Assets.xcassets; sourceTree = "<group>"; };
 		DE8F996D1E577E4000F2087B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		DE8F996F1E577E4000F2087B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE8F996F1E577E4000F2087B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = weWrk/Info.plist; sourceTree = "<group>"; };
+		DE8F99881E57F70300F2087B /* weWrk.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = weWrk.entitlements; path = weWrk/weWrk.entitlements; sourceTree = "<group>"; };
+		DE8F998B1E57F88C00F2087B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DE8F998D1E57FA9400F2087B /* CustomField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomField.swift; sourceTree = "<group>"; };
+		E9632B6707C85480A42A4BBA /* Pods-weWrk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-weWrk.release.xcconfig"; path = "Pods/Target Support Files/Pods-weWrk/Pods-weWrk.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +46,47 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F05661185EE1A96A8CB6996C /* Pods_weWrk.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2141A5CB836C37C8B28B56B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F12397AAC2632008BBD255C /* Pods_weWrk.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		229CE67F5FCCB49B915C10D5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				97F7AA0EAD3594F3C0B3F5B4 /* Pods-weWrk.debug.xcconfig */,
+				E9632B6707C85480A42A4BBA /* Pods-weWrk.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DE2BE7241E5F35FA00EB8137 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				DE2BE7271E5F367000EB8137 /* Oswald */,
+				DE8F996A1E577E4000F2087B /* Assets.xcassets */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
 		DE8F99541E577E4000F2087B = {
 			isa = PBXGroup;
 			children = (
-				DE8F995F1E577E4000F2087B /* weWrk */,
+				DE8F997D1E57878C00F2087B /* weWrk */,
+				DE8F99791E5780B600F2087B /* Template */,
 				DE8F995E1E577E4000F2087B /* Products */,
+				229CE67F5FCCB49B915C10D5 /* Pods */,
+				2141A5CB836C37C8B28B56B2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -53,18 +98,62 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DE8F995F1E577E4000F2087B /* weWrk */ = {
+		DE8F99751E577FC600F2087B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DE8F998D1E57FA9400F2087B /* CustomField.swift */,
+				DE8F997B1E57811B00F2087B /* Controller */,
+				DE8F99771E57804700F2087B /* AppDelegate */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		DE8F99771E57804700F2087B /* AppDelegate */ = {
 			isa = PBXGroup;
 			children = (
 				DE8F99601E577E4000F2087B /* AppDelegate.swift */,
-				DE8F99621E577E4000F2087B /* ViewController.swift */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		DE8F99781E57808400F2087B /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				DE2BE7221E5F2E4F00EB8137 /* constants.swift */,
 				DE8F99641E577E4000F2087B /* Main.storyboard */,
-				DE8F996A1E577E4000F2087B /* Assets.xcassets */,
-				DE8F996C1E577E4000F2087B /* LaunchScreen.storyboard */,
+			);
+			name = StoryBoards;
+			sourceTree = "<group>";
+		};
+		DE8F99791E5780B600F2087B /* Template */ = {
+			isa = PBXGroup;
+			children = (
+				DE8F99881E57F70300F2087B /* weWrk.entitlements */,
+				DE8F998B1E57F88C00F2087B /* GoogleService-Info.plist */,
 				DE8F996F1E577E4000F2087B /* Info.plist */,
 				DE8F99671E577E4000F2087B /* weWrk.xcdatamodeld */,
+				DE8F996C1E577E4000F2087B /* LaunchScreen.storyboard */,
 			);
-			path = weWrk;
+			name = Template;
+			sourceTree = "<group>";
+		};
+		DE8F997B1E57811B00F2087B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DE8F99621E577E4000F2087B /* ViewController.swift */,
+				DE2BE7201E5F296A00EB8137 /* MainPage.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		DE8F997D1E57878C00F2087B /* weWrk */ = {
+			isa = PBXGroup;
+			children = (
+				DE2BE7241E5F35FA00EB8137 /* Assets */,
+				DE8F99781E57808400F2087B /* StoryBoards */,
+				DE8F99751E577FC600F2087B /* Classes */,
+			);
+			name = weWrk;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +163,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DE8F99721E577E4000F2087B /* Build configuration list for PBXNativeTarget "weWrk" */;
 			buildPhases = (
+				79FC494908D5104CBC001131 /* [CP] Check Pods Manifest.lock */,
 				DE8F99591E577E4000F2087B /* Sources */,
 				DE8F995A1E577E4000F2087B /* Frameworks */,
 				DE8F995B1E577E4000F2087B /* Resources */,
+				C5F759205AF09B67861D1C3A /* [CP] Embed Pods Frameworks */,
+				88B7F20C33346BD04AE5FDCE /* [CP] Copy Pods Resources */,
+				DE8F998F1E58003C00F2087B /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -101,6 +194,11 @@
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = Y9R5463FG5;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -127,7 +225,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE2BE7281E5F367000EB8137 /* Oswald in Resources */,
 				DE8F996E1E577E4000F2087B /* LaunchScreen.storyboard in Resources */,
+				DE8F998C1E57F88C00F2087B /* GoogleService-Info.plist in Resources */,
 				DE8F996B1E577E4000F2087B /* Assets.xcassets in Resources */,
 				DE8F99661E577E4000F2087B /* Main.storyboard in Resources */,
 			);
@@ -135,14 +235,79 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		79FC494908D5104CBC001131 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		88B7F20C33346BD04AE5FDCE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-weWrk/Pods-weWrk-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5F759205AF09B67861D1C3A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-weWrk/Pods-weWrk-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE8F998F1E58003C00F2087B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "
+";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DE8F99591E577E4000F2087B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE2BE7211E5F296A00EB8137 /* MainPage.swift in Sources */,
 				DE8F99691E577E4000F2087B /* weWrk.xcdatamodeld in Sources */,
 				DE8F99631E577E4000F2087B /* ViewController.swift in Sources */,
 				DE8F99611E577E4000F2087B /* AppDelegate.swift in Sources */,
+				DE8F998E1E57FA9400F2087B /* CustomField.swift in Sources */,
+				DE2BE7231E5F2E4F00EB8137 /* constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,6 +320,7 @@
 				DE8F99651E577E4000F2087B /* Base */,
 			);
 			name = Main.storyboard;
+			path = weWrk;
 			sourceTree = "<group>";
 		};
 		DE8F996C1E577E4000F2087B /* LaunchScreen.storyboard */ = {
@@ -163,6 +329,7 @@
 				DE8F996D1E577E4000F2087B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = weWrk;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -263,8 +430,10 @@
 		};
 		DE8F99731E577E4000F2087B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97F7AA0EAD3594F3C0B3F5B4 /* Pods-weWrk.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = weWrk/weWrk.entitlements;
 				DEVELOPMENT_TEAM = Y9R5463FG5;
 				INFOPLIST_FILE = weWrk/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -276,8 +445,10 @@
 		};
 		DE8F99741E577E4000F2087B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9632B6707C85480A42A4BBA /* Pods-weWrk.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = weWrk/weWrk.entitlements;
 				DEVELOPMENT_TEAM = Y9R5463FG5;
 				INFOPLIST_FILE = weWrk/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -306,6 +477,7 @@
 				DE8F99741E577E4000F2087B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
@@ -316,7 +488,8 @@
 				DE8F99681E577E4000F2087B /* weWrk.xcdatamodel */,
 			);
 			currentVersion = DE8F99681E577E4000F2087B /* weWrk.xcdatamodel */;
-			path = weWrk.xcdatamodeld;
+			name = weWrk.xcdatamodeld;
+			path = weWrk/weWrk.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
