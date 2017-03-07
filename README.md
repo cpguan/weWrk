@@ -2,22 +2,29 @@
 
 weWrk is a work related social networking platform for construction workers and companies, using the [Firebase](https://firebase.google.com) API and infrastructure.
 
-Time spent: 5 hours spent in total
+Time spent: 7 hours spent in total
 
 ## User Stories
 
 The following **required** functionality is must be completed:
 
 - [ ] User can sign in/sign up to weWrk, using their gmail, facebook, or email accounts and sign out.
-- [ ] On signup, user is asked for information related to their work history, who they know, interests, and who to follow.
+- [ ] On signup, user is asked for information related to their work history, who they know, interests.
 - [ ] App remembers signed in users and settings across app restarts.
-- [ ] User can see their timeline page, job applications, messages, profile, and friends page.
-- [ ] User can have message conversations between companies or other users.
-- [ ] People, jobs, companies, can be searched, viewed, and/or followed.
+- [ ] User can see their timeline page, job applications, and profile page.
+- [ ] People, jobs, companies, can be searched, and viewed. 
+  - [ ] User can apply for a job.
+  - [ ] User can see job location using map api.
+  - [ ] Users can rate jobs they have completed.
 - [ ] User can manage their profile page and edit things such as their profile picture, contact info, experience.
 
 The following **additional** features are implemented:
 - [ ] User can be notified of any messages or events happening in the app.
+- [ ] User can create a network of contacts whom they know, and follow them.
+- [ ] User can have message conversations between companies or other users.
+- [ ] Profile page has layer animations on user pull down and scroll.
+- [ ] User can see job detail recommendations.
+
 
 ## Video Walkthrough 
 
